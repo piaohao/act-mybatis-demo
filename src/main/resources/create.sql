@@ -4,3 +4,4 @@ create table account
 		primary key,
 	name varchar(50) not null
 );
+INSERT INTO account (name) VALUES ('admin');
